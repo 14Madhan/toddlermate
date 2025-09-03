@@ -191,31 +191,37 @@ function App() {
           </div>
 
           <div className="symptoms-grid">
-            {Object.entries(symptoms).map(([key, symptom]) => (
-              <Card key={key} className="symptom-card">
-                <CardHeader>
-                  <CardTitle className="symptom-title">{symptom.title}</CardTitle>
-                  <CardDescription>{symptom.description}</CardDescription>
-                </CardHeader>
-                <CardContent className="symptom-content">
-                  <div className="remedy-section">
-                    <h4 className="remedy-title">Home Remedies:</h4>
-                    <ul className="remedy-list">
-                      {symptom.home_remedies?.map((remedy, index) => (
-                        <li key={index} className="remedy-item">{remedy}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div className="doctor-section">
-                    <AlertTriangle className="doctor-icon" />
-                    <div>
-                      <h4 className="doctor-title">When to see a doctor:</h4>
-                      <p className="doctor-text">{symptom.when_to_see_doctor}</p>
+            {/* Reorder to put Sleep Problems first */}
+            {["sleep", "fever", "cough", "stomach"].map((key) => {
+              const symptom = symptoms[key];
+              if (!symptom) return null;
+              
+              return (
+                <Card key={key} className="symptom-card">
+                  <CardHeader>
+                    <CardTitle className="symptom-title">{symptom.title}</CardTitle>
+                    <CardDescription>{symptom.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="symptom-content">
+                    <div className="remedy-section">
+                      <h4 className="remedy-title">Home Remedies:</h4>
+                      <ul className="remedy-list">
+                        {symptom.home_remedies?.map((remedy, index) => (
+                          <li key={index} className="remedy-item">{remedy}</li>
+                        ))}
+                      </ul>
                     </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+                    <div className="doctor-section">
+                      <AlertTriangle className="doctor-icon" />
+                      <div>
+                        <h4 className="doctor-title">When to see a doctor:</h4>
+                        <p className="doctor-text">{symptom.when_to_see_doctor}</p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
