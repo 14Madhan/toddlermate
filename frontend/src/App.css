@@ -104,6 +104,12 @@ body {
   white-space: nowrap;
 }
 
+.feature-icon {
+  width: 24px;
+  height: 24px;
+  color: #ffd93d;
+}
+
 /* Section Styles */
 .section-header {
   text-align: center;
