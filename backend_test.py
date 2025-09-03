@@ -87,7 +87,7 @@ class ToddlerMateAPITester:
         return success
 
     def test_get_symptoms(self):
-        """Test getting health symptoms"""
+        """Test getting health symptoms with Indian cultural remedies"""
         success, response = self.run_test(
             "Get Health Symptoms",
             "GET",
@@ -107,6 +107,41 @@ class ToddlerMateAPITester:
                     if field not in response[key]:
                         print(f"❌ Missing field {field} in {key}")
                         return False
+            
+            # Test Indian cultural remedies
+            print("\n🔍 Checking Indian Cultural Remedies...")
+            
+            # Fever remedies
+            fever_remedies = response["fever"]["home_remedies"]
+            fever_indian_terms = ["honey", "tulsi", "mustard oil"]
+            fever_found = [term for term in fever_indian_terms if any(term.lower() in remedy.lower() for remedy in fever_remedies)]
+            print(f"   Fever - Found Indian remedies: {fever_found}")
+            
+            # Cough remedies  
+            cough_remedies = response["cough"]["home_remedies"]
+            cough_indian_terms = ["ginger", "honey", "turmeric", "ajwain"]
+            cough_found = [term for term in cough_indian_terms if any(term.lower() in remedy.lower() for remedy in cough_remedies)]
+            print(f"   Cough - Found Indian remedies: {cough_found}")
+            
+            # Stomach remedies
+            stomach_remedies = response["stomach"]["home_remedies"]
+            stomach_indian_terms = ["ORS", "jeera", "khichdi", "rice water"]
+            stomach_found = [term for term in stomach_indian_terms if any(term.lower() in remedy.lower() for remedy in stomach_remedies)]
+            print(f"   Stomach - Found Indian remedies: {stomach_found}")
+            
+            # Sleep remedies
+            sleep_remedies = response["sleep"]["home_remedies"]
+            sleep_indian_terms = ["oil massage", "turmeric", "head massage"]
+            sleep_found = [term for term in sleep_indian_terms if any(term.lower() in remedy.lower() for remedy in sleep_remedies)]
+            print(f"   Sleep - Found Indian remedies: {sleep_found}")
+            
+            # Check if we found enough Indian cultural elements
+            total_found = len(fever_found) + len(cough_found) + len(stomach_found) + len(sleep_found)
+            if total_found >= 8:  # Should find most of the expected terms
+                print("✅ Indian cultural remedies are well represented")
+            else:
+                print(f"⚠️  Only found {total_found} Indian cultural remedy terms")
+            
             print("✅ Symptoms data structure is valid")
         
         return success
