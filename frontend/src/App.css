@@ -613,6 +613,14 @@ body {
     padding: 0 1rem;
   }
   
+  .milestones-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .symptoms-grid {
+    grid-template-columns: 1fr;
+  }
+  
   .message-content {
     max-width: 85%;
   }
