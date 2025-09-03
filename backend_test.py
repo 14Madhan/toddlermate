@@ -112,10 +112,19 @@ class ToddlerMateAPITester:
         return success
 
     def test_hospital_search(self):
-        """Test hospital search functionality"""
-        test_locations = ["New York", "Boston", "Philadelphia"]
+        """Test hospital search functionality with Indian cities"""
+        # Test main Indian cities
+        main_cities = ["Mumbai", "Delhi", "Bangalore", "Chennai", "Hyderabad", "Kolkata", "Pune", "Ahmedabad"]
         
-        for location in test_locations:
+        # Test city variations
+        city_variations = ["New Delhi", "Navi Mumbai", "Bengaluru", "Gurgaon", "Noida"]
+        
+        # Test unknown cities
+        unknown_cities = ["UnknownCity", "RandomPlace"]
+        
+        all_test_locations = main_cities + city_variations + unknown_cities
+        
+        for location in all_test_locations:
             success, response = self.run_test(
                 f"Hospital Search - {location}",
                 "POST",
@@ -133,10 +142,35 @@ class ToddlerMateAPITester:
                         if field not in hospital:
                             print(f"❌ Missing field {field} in hospital data")
                             return False
-                    print(f"✅ Hospital search returned {len(response)} hospitals")
+                    
+                    # Check for Indian address formatting and phone numbers
+                    if location in main_cities or location in city_variations:
+                        # Should have proper Indian addresses
+                        address = hospital.get("address", "")
+                        phone = hospital.get("phone", "")
+                        
+                        # Check if address contains Indian state/city info
+                        indian_indicators = ["Maharashtra", "Delhi", "Karnataka", "Tamil Nadu", "Telangana", "West Bengal", "Gujarat", "Uttar Pradesh"]
+                        has_indian_address = any(indicator in address for indicator in indian_indicators)
+                        
+                        if has_indian_address:
+                            print(f"✅ Found proper Indian address: {address[:50]}...")
+                        else:
+                            print(f"⚠️  Address may not be Indian format: {address}")
+                        
+                        # Check phone number format (+91)
+                        if phone and "+91" in phone:
+                            print(f"✅ Found Indian phone format: {phone}")
+                        elif phone:
+                            print(f"⚠️  Phone number may not be Indian format: {phone}")
+                    
+                    print(f"✅ Hospital search returned {len(response)} hospitals for {location}")
                 else:
-                    print(f"❌ No hospitals returned for {location}")
-                    return False
+                    if location in unknown_cities:
+                        print(f"✅ Fallback behavior working for unknown city: {location}")
+                    else:
+                        print(f"❌ No hospitals returned for known city: {location}")
+                        return False
             else:
                 return False
         
