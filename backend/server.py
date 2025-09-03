@@ -109,17 +109,18 @@ MILESTONES_DATA = {
     }
 }
 
-# Health Symptoms Data
+# Health Symptoms Data with Indian Cultural Remedies
 SYMPTOMS_DATA = {
     "fever": {
         "title": "Fever & High Temperature",
         "description": "When your child feels warm and restless",
         "home_remedies": [
-            "Give plenty of fluids",
-            "Dress in light clothing",
-            "Use a cool compress on forehead",
-            "Monitor temperature regularly",
-            "Rest and comfort"
+            "Give honey mixed with warm water (for children over 1 year)",
+            "Apply cold compress with damp cloth on forehead",
+            "Offer plenty of fluids like coconut water or ORS",
+            "Use tulsi (holy basil) leaves boiled in water as tea",
+            "Light cotton clothing and keep room well-ventilated",
+            "Gentle massage with lukewarm mustard oil on chest and back"
         ],
         "when_to_see_doctor": "If fever persists over 3 days, reaches 104°F, or child shows signs of dehydration"
     },
@@ -127,11 +128,12 @@ SYMPTOMS_DATA = {
         "title": "Persistent Cough",
         "description": "Dry or wet cough that concerns you",
         "home_remedies": [
-            "Use a humidifier",
-            "Offer warm liquids",
-            "Honey for children over 1 year",
-            "Elevate head while sleeping",
-            "Ensure adequate rest"
+            "Honey with warm water or milk (for children over 1 year)",
+            "Steam inhalation with eucalyptus oil or ajwain (carom seeds)",
+            "Ginger juice with honey (small amounts for older toddlers)",
+            "Turmeric powder in warm milk before bedtime",
+            "Warm mustard oil massage on chest and back",
+            "Keep child hydrated with warm fluids and soups"
         ],
         "when_to_see_doctor": "If cough persists over 2 weeks, difficulty breathing, or coughing up blood"
     },
@@ -139,11 +141,12 @@ SYMPTOMS_DATA = {
         "title": "Stomach Issues",
         "description": "Vomiting, diarrhea, or tummy troubles",
         "home_remedies": [
-            "Clear fluids (water, broth)",
-            "BRAT diet (bananas, rice, applesauce, toast)",
-            "Small, frequent meals",
-            "Avoid dairy temporarily",
-            "Rest and hydration"
+            "ORS (Oral Rehydration Solution) or homemade salt-sugar water",
+            "Rice water or thin khichdi for easy digestion",
+            "Banana and yogurt for probiotics and potassium",
+            "Jeera (cumin) water boiled and cooled",
+            "Ginger tea with honey for nausea (older toddlers)",
+            "Avoid dairy temporarily, focus on BRAT diet (banana, rice, apple, toast)"
         ],
         "when_to_see_doctor": "If symptoms persist over 24 hours, signs of dehydration, or severe pain"
     },
@@ -151,11 +154,12 @@ SYMPTOMS_DATA = {
         "title": "Sleep Problems",
         "description": "Difficulty falling or staying asleep",
         "home_remedies": [
-            "Consistent bedtime routine",
-            "Comfortable room temperature",
-            "Limit screen time before bed",
-            "Calming activities (reading, soft music)",
-            "Regular sleep schedule"
+            "Warm oil massage with coconut or mustard oil before bedtime",
+            "Warm milk with a pinch of turmeric and nutmeg",
+            "Create consistent bedtime routine with soft devotional music",
+            "Gentle head massage with warm oil",
+            "Keep room cool and comfortable, use cotton clothing",
+            "Avoid screen time 1 hour before sleep, dim lights in evening"
         ],
         "when_to_see_doctor": "If sleep problems persist for weeks or affect daily functioning"
     }
