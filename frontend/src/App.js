@@ -100,40 +100,43 @@ function App() {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="container mx-auto px-6 py-16">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="hero-content">
-              <h1 className="hero-title">
-                Welcome to <span className="text-primary">ToddlerMate</span>
-              </h1>
-              <p className="hero-subtitle">
-                Your trusted companion for toddler development, health guidance, and parenting support. 
-                Track milestones, get AI-powered answers, and find nearby pediatric care.
-              </p>
-              <div className="hero-features">
-                <div className="feature-item">
-                  <Baby className="feature-icon" />
-                  <span>Development Tracking</span>
-                </div>
-                <div className="feature-item">
-                  <Stethoscope className="feature-icon" />
-                  <span>Health Guidance</span>
-                </div>
-                <div className="feature-item">
-                  <MessageCircle className="feature-icon" />
-                  <span>AI Assistant</span>
-                </div>
-                <div className="feature-item">
-                  <MapPin className="feature-icon" />
-                  <span>Hospital Locator</span>
-                </div>
-              </div>
-            </div>
+          <div className="hero-content-wrapper">
+            <h1 className="hero-title">Welcome to ToddlerMate</h1>
+            
             <div className="hero-image">
               <img 
                 src="https://images.unsplash.com/photo-1632052999447-e542d08d4f7d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxwZWRpYXRyaWN8ZW58MHx8fHwxNzU2OTI0NTA0fDA&ixlib=rb-4.1.0&q=85"
                 alt="Pediatrician with child"
                 className="rounded-xl shadow-lg"
               />
+            </div>
+            
+            <div className="hero-welcome-message">
+              <p>
+                Welcome to ToddlerMate! We know parenting a toddler can feel overwhelming – one moment they're your little angel, the next they're testing every boundary. Raising a toddler is one of life's greatest adventures.
+              </p>
+              <p>
+                Whether you're celebrating first words, managing meltdowns, or wondering if that cough needs attention – you'll find answers, support, and peace of mind here.
+              </p>
+            </div>
+            
+            <div className="hero-features">
+              <div className="feature-item">
+                <Baby className="feature-icon" />
+                <span>Development Tracking</span>
+              </div>
+              <div className="feature-item">
+                <Stethoscope className="feature-icon" />
+                <span>Health Guidance</span>
+              </div>
+              <div className="feature-item">
+                <MessageCircle className="feature-icon" />
+                <span>AI Assistant</span>
+              </div>
+              <div className="feature-item">
+                <MapPin className="feature-icon" />
+                <span>Hospital Locator</span>
+              </div>
             </div>
           </div>
         </div>
