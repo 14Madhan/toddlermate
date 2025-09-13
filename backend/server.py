@@ -107,7 +107,7 @@ MILESTONES_DATA = {
     },
     "2-3_years": {
         "title": "2-3 Years",
-        "image": "https://images.unsplash.com/photo-1581841899040-8b5e38bae033?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzR8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBjaGlsZCUwfHx8fDE3NTc3NTY0Mzd8MA&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.unsplash.com/photo-1501686637-b7aa9c48a882?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHx0b2RkbGVyfGVufDB8fHx8MTc1Nzc1NjQ0NHww&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Runs and jumps",
             "Uses 2-word phrases",
