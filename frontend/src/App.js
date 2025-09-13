@@ -106,8 +106,8 @@ function App() {
             
             <div className="hero-image">
               <img 
-                src="https://images.unsplash.com/photo-1659353887012-680771c1b497"
-                alt="Indian doctor checking health of Indian toddler"
+                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwyfHxpbmRpYW4lMjBkb2N0b3J8ZW58MHx8fHwxNzU3NzU2MjA4fDA&ixlib=rb-4.1.0&q=85"
+                alt="Indian doctor standing calmly with crossed arms"
                 className="rounded-xl shadow-lg"
               />
             </div>
