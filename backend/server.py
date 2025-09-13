@@ -51,8 +51,7 @@ class Hospital(BaseModel):
     name: str
     address: str
     phone: Optional[str] = None
-    type: str = "Pediatric Hospital"
-    distance: Optional[str] = None
+    type: str = "Hospital"
 
 class StatusCheck(BaseModel):
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
