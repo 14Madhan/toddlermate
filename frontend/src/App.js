@@ -158,21 +158,44 @@ function App() {
           
           <div className="milestones-grid">
             {Object.entries(milestones).map(([key, milestone]) => (
-              <Card key={key} className="milestone-card">
-                <CardHeader>
-                  <CardTitle className="milestone-title">{milestone.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="milestone-list">
-                    {milestone.milestones?.map((item, index) => (
-                      <div key={index} className="milestone-item">
-                        <CheckCircle className="milestone-check" />
-                        <span>{item}</span>
+              <Dialog key={key}>
+                <DialogTrigger asChild>
+                  <Card className="milestone-card-clickable" onClick={() => setSelectedMilestone(milestone)}>
+                    <div className="milestone-image-container">
+                      <img 
+                        src={milestone.image} 
+                        alt={milestone.title}
+                        className="milestone-image"
+                      />
+                      <div className="milestone-overlay">
+                        <h3 className="milestone-card-title">{milestone.title}</h3>
+                        <p className="milestone-card-subtitle">Click to view milestones</p>
                       </div>
-                    ))}
+                    </div>
+                  </Card>
+                </DialogTrigger>
+                <DialogContent className="milestone-modal">
+                  <DialogHeader>
+                    <DialogTitle className="milestone-modal-title">
+                      <Baby className="milestone-modal-icon" />
+                      {milestone.title} Development Milestones
+                    </DialogTitle>
+                    <DialogDescription>
+                      Track your child's expected behaviors and development patterns
+                    </DialogDescription>
+                  </DialogHeader>
+                  <div className="milestone-modal-content">
+                    <div className="milestone-list">
+                      {milestone.milestones?.map((item, index) => (
+                        <div key={index} className="milestone-item">
+                          <CheckCircle className="milestone-check" />
+                          <span>{item}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                </CardContent>
-              </Card>
+                </DialogContent>
+              </Dialog>
             ))}
           </div>
         </div>
