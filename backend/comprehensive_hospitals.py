@@ -802,6 +802,230 @@ COMPREHENSIVE_HOSPITALS_DATABASE = {
             "phone": "+91 281 235 5555",
             "type": "Multi-specialty Hospital"
         }
+    ],
+    "kalyan_dombivli": [
+        {
+            "name": "Paramount Hospital",
+            "address": "Plot No. 5, Sector 7, Kalyan West, Mumbai, Maharashtra 421301",
+            "phone": "+91 251 261 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Chikitsa Hospital",
+            "address": "Dombivli East, Mumbai, Maharashtra 421201",
+            "phone": "+91 251 287 1111",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Lifeline Hospital",
+            "address": "Kalyan Dombivli, Mumbai, Maharashtra 421203",
+            "phone": "+91 251 248 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Ace Hospital",
+            "address": "Dombivli West, Mumbai, Maharashtra 421202",
+            "phone": "+91 251 242 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Krishna Hospital",
+            "address": "Kalyan East, Mumbai, Maharashtra 421306",
+            "phone": "+91 251 234 7777",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "vasai_virar": [
+        {
+            "name": "Criticare Hospital",
+            "address": "Vasai West, Mumbai, Maharashtra 401202",
+            "phone": "+91 250 238 8888",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Shree Hospital",
+            "address": "Virar West, Mumbai, Maharashtra 401303",
+            "phone": "+91 250 230 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apex Hospital",
+            "address": "Vasai East, Mumbai, Maharashtra 401208",
+            "phone": "+91 250 261 1111",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Sanjeevani Hospital",
+            "address": "Nalasopara West, Mumbai, Maharashtra 401203",
+            "phone": "+91 250 290 2222",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Balaji Hospital",
+            "address": "Virar East, Mumbai, Maharashtra 401305",
+            "phone": "+91 250 245 3333",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "varanasi": [
+        {
+            "name": "Heritage Hospital",
+            "address": "BHU Campus, Varanasi, Uttar Pradesh 221002",
+            "phone": "+91 542 236 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Shivam Hospital",
+            "address": "Lanka, Varanasi, Uttar Pradesh 221005",
+            "phone": "+91 542 230 5000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Marwari Hospital",
+            "address": "Chetganj, Varanasi, Uttar Pradesh 221001",
+            "phone": "+91 542 239 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Pandit Deen Dayal Hospital",
+            "address": "Bhelupur, Varanasi, Uttar Pradesh 221010",
+            "phone": "+91 542 245 2222",
+            "type": "Government Hospital"
+        },
+        {
+            "name": "Kashi Hospital",
+            "address": "Sigra, Varanasi, Uttar Pradesh 221010",
+            "phone": "+91 542 250 8888",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "srinagar": [
+        {
+            "name": "Shri Maharaja Hari Singh Hospital",
+            "address": "Karan Nagar, Srinagar, Jammu and Kashmir 190010",
+            "phone": "+91 194 240 1013",
+            "type": "Government Hospital"
+        },
+        {
+            "name": "Bone and Joint Hospital",
+            "address": "Barzulla, Srinagar, Jammu and Kashmir 190005",
+            "phone": "+91 194 240 6789",
+            "type": "Specialty Hospital"
+        },
+        {
+            "name": "Sher-i-Kashmir Institute of Medical Sciences",
+            "address": "Soura, Srinagar, Jammu and Kashmir 190011",
+            "phone": "+91 194 240 1013",
+            "type": "Medical Institute"
+        },
+        {
+            "name": "Valley Hospital",
+            "address": "Dalgate, Srinagar, Jammu and Kashmir 190001",
+            "phone": "+91 194 245 2000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Kashmir Nursing Home",
+            "address": "Residency Road, Srinagar, Jammu and Kashmir 190001",
+            "phone": "+91 194 247 1111",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "aurangabad": [
+        {
+            "name": "Government Medical College and Hospital",
+            "address": "GMCH Campus, Aurangabad, Maharashtra 431004",
+            "phone": "+91 240 238 1881",
+            "type": "Government Medical College"
+        },
+        {
+            "name": "Care Hospital",
+            "address": "Paithan Road, Aurangabad, Maharashtra 431001",
+            "phone": "+91 240 671 1000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Medipoint Hospital",
+            "address": "Jalna Road, Aurangabad, Maharashtra 431005",
+            "phone": "+91 240 233 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Kamala Nehru Hospital",
+            "address": "Near Railway Station, Aurangabad, Maharashtra 431001",
+            "phone": "+91 240 233 2222",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Sushrut Hospital",
+            "address": "Town Center, Aurangabad, Maharashtra 431001",
+            "phone": "+91 240 234 7777",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "dhanbad": [
+        {
+            "name": "Brahmananda Narayana Multispeciality Hospital",
+            "address": "Saraidhela, Dhanbad, Jharkhand 828127",
+            "phone": "+91 326 230 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Rajendra Institute of Medical Sciences",
+            "address": "Bariatu, Ranchi, Jharkhand 834009",
+            "phone": "+91 651 220 1066",
+            "type": "Medical Institute"
+        },
+        {
+            "name": "Dhanbad Hospital",
+            "address": "Bank More, Dhanbad, Jharkhand 826001",
+            "phone": "+91 326 230 1111",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Jharia Hospital",
+            "address": "Jharia, Dhanbad, Jharkhand 828111",
+            "phone": "+91 326 222 3333",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Coal India Hospital",
+            "address": "Dhanbad, Jharkhand 826001",
+            "phone": "+91 326 230 5555",
+            "type": "Corporate Hospital"
+        }
+    ],
+    "amritsar": [
+        {
+            "name": "Amandeep Hospital",
+            "address": "Batala Road, Amritsar, Punjab 143001",
+            "phone": "+91 183 505 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Fortis Escorts Hospital",
+            "address": "Majitha-Verka Bypass, Amritsar, Punjab 143001",
+            "phone": "+91 183 750 1200",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Mukat Hospital",
+            "address": "Model Town, Amritsar, Punjab 143001",
+            "phone": "+91 183 258 2000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "BLK Hospital",
+            "address": "Lawrence Road, Amritsar, Punjab 143001",
+            "phone": "+91 183 250 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Grecian Hospital",
+            "address": "Sector 69, Mohali, Punjab 160062",
+            "phone": "+91 172 521 1000",
+            "type": "Super Specialty Hospital"
+        }
     ]
 }
 
