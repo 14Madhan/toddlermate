@@ -597,8 +597,7 @@ async def search_hospitals(request: HospitalSearchRequest):
             name=hospital_data["name"],
             address=hospital_data["address"],
             phone=hospital_data.get("phone"),
-            type=hospital_data["type"],
-            distance=hospital_data.get("distance")
+            type=hospital_data["type"]
         )
         hospitals.append(hospital)
     
