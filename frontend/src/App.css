@@ -365,6 +365,22 @@ body {
   padding: 4rem 0;
 }
 
+.hospital-disclaimer {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1.5rem auto 0;
+  max-width: 800px;
+}
+
+.disclaimer-text {
+  font-size: 0.9rem;
+  color: #856404;
+  line-height: 1.5;
+  margin: 0;
+}
+
 .hospital-search {
   max-width: 800px;
   margin: 0 auto;
