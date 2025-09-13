@@ -473,14 +473,18 @@ HOSPITALS_DATABASE = {
     ]
 }
 
-# Function to search hospitals by location
+# Function to search hospitals by location using comprehensive database
 def search_hospitals_by_location(location: str):
     # Convert location to lowercase for matching
     location_key = location.lower().strip()
     
-    # Direct match
-    if location_key in HOSPITALS_DATABASE:
-        return HOSPITALS_DATABASE[location_key]
+    # Special handling for Bangalore pediatric hospitals
+    if location_key in ["bangalore", "bengaluru"] and "pediatric" in location_key.lower():
+        return BANGALORE_PEDIATRIC_HOSPITALS
+    
+    # Check comprehensive database first
+    if location_key in COMPREHENSIVE_HOSPITALS_DATABASE:
+        return COMPREHENSIVE_HOSPITALS_DATABASE[location_key]
     
     # Enhanced location matching with more cities and better coverage
     location_mappings = {
@@ -542,7 +546,7 @@ def search_hospitals_by_location(location: str):
     # Check mappings
     for key, mapped_city in location_mappings.items():
         if key in location_key or location_key in key:
-            return HOSPITALS_DATABASE.get(mapped_city, [])
+            return COMPREHENSIVE_HOSPITALS_DATABASE.get(mapped_city, [])
     
     # If no match found, return a default set
     return [
@@ -550,15 +554,13 @@ def search_hospitals_by_location(location: str):
             "name": f"City Hospital - {location.title()}",
             "address": f"Main Medical District, {location.title()}",
             "phone": "+91 XXX XXX XXXX",
-            "type": "General Hospital",
-            "distance": "2.0 km"
+            "type": "General Hospital"
         },
         {
             "name": f"Children's Care Center - {location.title()}",
             "address": f"Healthcare Complex, {location.title()}",
             "phone": "+91 XXX XXX XXXX", 
-            "type": "Pediatric Care Center",
-            "distance": "3.5 km"
+            "type": "Pediatric Care Center"
         }
     ]
 
