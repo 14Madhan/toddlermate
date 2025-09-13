@@ -261,6 +261,14 @@ function App() {
             <p className="section-subtitle">
               Get immediate access to child-friendly healthcare facilities in your area
             </p>
+            <div className="hospital-disclaimer">
+              <p className="disclaimer-text">
+                <strong>Hospital Information Disclaimer:</strong> The hospital information provided includes data from top hospitals across major Indian cities. 
+                For Bangalore specifically, we maintain a comprehensive database of pediatric hospitals. 
+                Please verify hospital details, availability, and services before visiting. 
+                This information is for reference purposes only and does not constitute medical advice.
+              </p>
+            </div>
           </div>
 
           <div className="hospital-search">
@@ -298,12 +306,6 @@ function App() {
                         <div className="hospital-info">
                           <Phone className="info-icon" />
                           <span>{hospital.phone}</span>
-                        </div>
-                      )}
-                      {hospital.distance && (
-                        <div className="hospital-info">
-                          <Clock className="info-icon" />
-                          <span>{hospital.distance} away</span>
                         </div>
                       )}
                     </CardContent>
