@@ -1218,6 +1218,390 @@ COMPREHENSIVE_HOSPITALS_DATABASE = {
             "phone": "+91 452 253 0451",
             "type": "Government Hospital"
         }
+    ],
+    "gwalior": [
+        {
+            "name": "Birla Hospital",
+            "address": "Jayendraganj, Lashkar, Gwalior, Madhya Pradesh 474009",
+            "phone": "+91 751 407 4000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Cancer Hospital & Research Institute",
+            "address": "Gwalior, Madhya Pradesh 474009",
+            "phone": "+91 751 234 0000",
+            "type": "Specialty Hospital"
+        },
+        {
+            "name": "J.A. Group of Hospitals",
+            "address": "Napier Town, Gwalior, Madhya Pradesh 474001",
+            "phone": "+91 751 244 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Gajra Raja Medical College",
+            "address": "Gwalior, Madhya Pradesh 474009",
+            "phone": "+91 751 234 0170",
+            "type": "Government Medical College"
+        },
+        {
+            "name": "Agrawal Hospital",
+            "address": "City Centre, Gwalior, Madhya Pradesh 474011",
+            "phone": "+91 751 403 2222",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "vijayawada": [
+        {
+            "name": "Manipal Hospital",
+            "address": "NH-5, Tadepalli, Vijayawada, Andhra Pradesh 522501",
+            "phone": "+91 863 250 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Ramesh Hospitals",
+            "address": "Governorpet, Vijayawada, Andhra Pradesh 520002",
+            "phone": "+91 866 669 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Andhra Hospitals",
+            "address": "Suryarao Pet, Vijayawada, Andhra Pradesh 520003",
+            "phone": "+91 866 255 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Sri Venkateswara Hospital",
+            "address": "Near BRTS, Vijayawada, Andhra Pradesh 520008",
+            "phone": "+91 866 248 8888",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Government General Hospital",
+            "address": "Governorpet, Vijayawada, Andhra Pradesh 520002",
+            "phone": "+91 866 257 3131",
+            "type": "Government Hospital"
+        }
+    ],
+    "jabalpur": [
+        {
+            "name": "Netaji Subhash Chandra Bose Medical College",
+            "address": "Hanumantal, Jabalpur, Madhya Pradesh 482003",
+            "phone": "+91 761 262 7073",
+            "type": "Government Medical College"
+        },
+        {
+            "name": "Victoria Hospital",
+            "address": "Civil Lines, Jabalpur, Madhya Pradesh 482001",
+            "phone": "+91 761 262 1234",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Hitkarini Hospital",
+            "address": "Napier Town, Jabalpur, Madhya Pradesh 482001",
+            "phone": "+91 761 240 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Shalby Hospital",
+            "address": "Vijay Nagar, Jabalpur, Madhya Pradesh 482002",
+            "phone": "+91 761 406 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Bansal Hospital",
+            "address": "Vijay Nagar, Jabalpur, Madhya Pradesh 482002",
+            "phone": "+91 761 409 3333",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "cochin": [
+        {
+            "name": "Amrita Institute of Medical Sciences",
+            "address": "AIMS Ponekkara P O, Kochi, Kerala 682041",
+            "phone": "+91 484 285 1234",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Lisie Hospital",
+            "address": "Kaloor, Kochi, Kerala 682017",
+            "phone": "+91 484 240 3040",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Rajagiri Hospital",
+            "address": "Aluva-Munnar Highway, Chunangamveli, Kochi, Kerala 683112",
+            "phone": "+91 484 291 5000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Medical Trust Hospital",
+            "address": "M G Road, Kochi, Kerala 682016",
+            "phone": "+91 484 235 8001",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Specialists Hospital",
+            "address": "Chittoor Road, Kochi, Kerala 682018",
+            "phone": "+91 484 232 3100",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "raipur": [
+        {
+            "name": "All India Institute of Medical Sciences",
+            "address": "Tatibandh, Raipur, Chhattisgarh 492099",
+            "phone": "+91 771 297 1100",
+            "type": "Government Medical Institute"
+        },
+        {
+            "name": "Ramkrishna CARE Hospitals",
+            "address": "Aurobindo Enclave, Pachpedi Naka, Raipur, Chhattisgarh 492001",
+            "phone": "+91 771 430 0100",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "MMI Narayana Multispeciality Hospital",
+            "address": "Sector 6, Devendra Nagar, Raipur, Chhattisgarh 492004",
+            "phone": "+91 771 430 8888",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Sanjeevani Hospital",
+            "address": "Shankar Nagar, Raipur, Chhattisgarh 492007",
+            "phone": "+91 771 401 3333",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apollo BSR Hospital",
+            "address": "Sector 7, Bhilai, Chhattisgarh 490009",
+            "phone": "+91 788 298 1234",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "kota": [
+        {
+            "name": "MBS Hospital",
+            "address": "Nayapura, Kota, Rajasthan 324001",
+            "phone": "+91 744 236 2222",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Government Medical College",
+            "address": "MBS Road, Kota, Rajasthan 324005",
+            "phone": "+91 744 239 7777",
+            "type": "Government Medical College"
+        },
+        {
+            "name": "Neelkanth Hospital",
+            "address": "Talwandi, Kota, Rajasthan 324005",
+            "phone": "+91 744 237 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "CHL Hospital",
+            "address": "Jhalawar Road, Kota, Rajasthan 324005",
+            "phone": "+91 744 639 8000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Maheshwari Hospital",
+            "address": "Vigyan Nagar, Kota, Rajasthan 324005",
+            "phone": "+91 744 296 5555",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "chandigarh": [
+        {
+            "name": "Post Graduate Institute of Medical Education and Research",
+            "address": "Sector 12, Chandigarh 160012",
+            "phone": "+91 172 275 5555",
+            "type": "Government Medical Institute"
+        },
+        {
+            "name": "Fortis Hospital",
+            "address": "Sector 62, Mohali, Punjab 160062",
+            "phone": "+91 172 496 2000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Max Super Speciality Hospital",
+            "address": "Phase-VI, Mohali, Punjab 160055",
+            "phone": "+91 172 521 2000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Government Multi Specialty Hospital",
+            "address": "Sector 16, Chandigarh 160015",
+            "phone": "+91 172 276 0000",
+            "type": "Government Hospital"
+        },
+        {
+            "name": "Healing Hospital",
+            "address": "Sector 34-A, Chandigarh 160022",
+            "phone": "+91 172 460 1000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "bhubaneswar": [
+        {
+            "name": "All India Institute of Medical Sciences",
+            "address": "Sijua, Bhubaneswar, Odisha 751019",
+            "phone": "+91 674 247 3999",
+            "type": "Government Medical Institute"
+        },
+        {
+            "name": "Apollo Hospitals",
+            "address": "Plot No 251, Sainik School Road, Bhubaneswar, Odisha 751005",
+            "phone": "+91 674 666 6699",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Kalinga Hospital",
+            "address": "Plot No. 1, Kalinga Nagar, Bhubaneswar, Odisha 751003",
+            "phone": "+91 674 230 0200",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Care Hospital",
+            "address": "Unit-15, Bhubaneswar, Odisha 751022",
+            "phone": "+91 674 710 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Hi-Tech Medical College",
+            "address": "Pandara, Bhubaneswar, Odisha 752054",
+            "phone": "+91 674 295 8217",
+            "type": "Medical College Hospital"
+        }
+    ],
+    "salem": [
+        {
+            "name": "Government Mohan Kumaramangalam Medical College Hospital",
+            "address": "Attur Main Road, Salem, Tamil Nadu 636030",
+            "phone": "+91 427 243 5220",
+            "type": "Government Medical College"
+        },
+        {
+            "name": "Manipal Hospital",
+            "address": "Dalmia Board P.O, Salem, Tamil Nadu 636813",
+            "phone": "+91 427 230 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Shanmuga Hospital",
+            "address": "New Fairlands, Salem, Tamil Nadu 636016",
+            "phone": "+91 427 244 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Salem Medical College Hospital",
+            "address": "The Cervon, Salem, Tamil Nadu 636030",
+            "phone": "+91 427 243 5274",
+            "type": "Government Hospital"
+        },
+        {
+            "name": "Vinayaka Mission's Hospital",
+            "address": "Ariyanur, Salem, Tamil Nadu 636308",
+            "phone": "+91 427 439 3000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "mangalore": [
+        {
+            "name": "Kasturba Medical College Hospital",
+            "address": "Manipal Academy of Higher Education, Mangalore, Karnataka 575001",
+            "phone": "+91 824 242 1001",
+            "type": "Medical College Hospital"
+        },
+        {
+            "name": "AJ Hospital & Research Centre",
+            "address": "Kuntikana, Mangalore, Karnataka 575004",
+            "phone": "+91 824 422 5533",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Yenepoya Medical College Hospital",
+            "address": "University Road, Deralakatte, Mangalore, Karnataka 575018",
+            "phone": "+91 824 220 4668",
+            "type": "Medical College Hospital"
+        },
+        {
+            "name": "Highland Hospital",
+            "address": "Kodialbail, Mangalore, Karnataka 575003",
+            "phone": "+91 824 249 5000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Unity Hospital",
+            "address": "Kankanady, Mangalore, Karnataka 575002",
+            "phone": "+91 824 222 0770",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "warangal": [
+        {
+            "name": "Kakatiya Medical College",
+            "address": "MGM Hospital, Warangal, Telangana 506007",
+            "phone": "+91 870 247 4444",
+            "type": "Government Medical College"
+        },
+        {
+            "name": "Jaya Hospital",
+            "address": "Station Road, Warangal, Telangana 506002",
+            "phone": "+91 870 242 2222",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Challa Multi Specialty Hospital",
+            "address": "Balasamudram, Hanamkonda, Warangal, Telangana 506001",
+            "phone": "+91 870 301 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Omega Hospital",
+            "address": "Road No 12/1, Warangal, Telangana 506002",
+            "phone": "+91 870 404 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Medicover Hospital",
+            "address": "Mulugu Road, Warangal, Telangana 506015",
+            "phone": "+91 870 303 3000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "tiruchirappalli": [
+        {
+            "name": "SRM Medical College Hospital",
+            "address": "SRM Nagar, Kattankulathur, Tiruchirappalli, Tamil Nadu 603203",
+            "phone": "+91 431 271 1111",
+            "type": "Medical College Hospital"
+        },
+        {
+            "name": "Apollo Speciality Hospital",
+            "address": "No. 21 Greams Lane, Tiruchirappalli, Tamil Nadu 620002",
+            "phone": "+91 431 450 1000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Kavery Medical Centre",
+            "address": "No. 199, Pankaja Mill Road, Tiruchirappalli, Tamil Nadu 620021",
+            "phone": "+91 431 425 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Government Mahatma Gandhi Memorial Hospital",
+            "address": "Tiruchirappalli Medical College, Tiruchirappalli, Tamil Nadu 620017",
+            "phone": "+91 431 241 4103",
+            "type": "Government Hospital"
+        },
+        {
+            "name": "Senthil Multi Specialty Hospital",
+            "address": "No. 47, Puthur High Road, Tiruchirappalli, Tamil Nadu 620017",
+            "phone": "+91 431 270 6767",
+            "type": "Multi-specialty Hospital"
+        }
     ]
 }
 
