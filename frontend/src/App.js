@@ -106,8 +106,8 @@ function App() {
             
             <div className="hero-image">
               <img 
-                src="https://images.unsplash.com/photo-1632052999447-e542d08d4f7d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxwZWRpYXRyaWN8ZW58MHx8fHwxNzU2OTI0NTA0fDA&ixlib=rb-4.1.0&q=85"
-                alt="Pediatrician with child"
+                src="https://images.unsplash.com/photo-1659353888906-adb3e0041693?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1NjkyNDUxNnww&ixlib=rb-4.1.0&q=85"
+                alt="Indian pediatrician with child"
                 className="rounded-xl shadow-lg"
               />
             </div>
