@@ -148,10 +148,82 @@ body {
 
 .milestones-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 1.5rem;
 }
 
+.milestone-card-clickable {
+  background: white;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+  height: 220px;
+}
+
+.milestone-card-clickable:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.1);
+}
+
+.milestone-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.milestone-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.milestone-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+  color: white;
+  padding: 1.5rem 1rem 1rem;
+  text-align: center;
+}
+
+.milestone-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.milestone-card-subtitle {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.milestone-modal {
+  max-width: 600px;
+}
+
+.milestone-modal-title {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: #667eea;
+  font-size: 1.5rem;
+}
+
+.milestone-modal-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.milestone-modal-content {
+  margin-top: 1rem;
+}
+
+/* Old milestone card styles - keep for reference but update */
 .milestone-card {
   background: white;
   border: none;
