@@ -61,11 +61,11 @@ class StatusCheck(BaseModel):
 class StatusCheckCreate(BaseModel):
     client_name: str
 
-# Development Milestones Data
+# Development Milestones Data with Indian Children Images
 MILESTONES_DATA = {
     "0-6_months": {
         "title": "0-6 Months",
-        "image": "https://images.unsplash.com/photo-1631201036602-c557ad26828e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1NjkyNDUxNnww&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.pexels.com/photos/5998457/pexels-photo-5998457.jpeg",
         "milestones": [
             "Follows objects with eyes",
             "Responds to loud sounds",
@@ -79,7 +79,7 @@ MILESTONES_DATA = {
     },
     "6-12_months": {
         "title": "6-12 Months",
-        "image": "https://images.unsplash.com/photo-1600880291319-1a7499c191e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1NjkyNDUxNnww&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.pexels.com/photos/5998452/pexels-photo-5998452.jpeg",
         "milestones": [
             "Sits without support",
             "Crawls or scoots",
@@ -93,7 +93,7 @@ MILESTONES_DATA = {
     },
     "1-2_years": {
         "title": "1-2 Years",
-        "image": "https://images.unsplash.com/photo-1582568469591-329655b4c24c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHw0fHx0b2RkbGVyJTIwaGVhbHRofGVufDB8fHx8MTc1NjkyNDQ5OHww&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.unsplash.com/photo-1631201036665-35d8815f97e8",
         "milestones": [
             "Walks independently",
             "Says 2-3 words clearly",
@@ -107,7 +107,7 @@ MILESTONES_DATA = {
     },
     "2-3_years": {
         "title": "2-3 Years",
-        "image": "https://images.unsplash.com/photo-1751158112093-b736fe920027?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHx0b2RkbGVyJTIwaGVhbHRofGVufDB8fHx8MTc1NjkyNDQ5OHww&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.pexels.com/photos/33865735/pexels-photo-33865735.jpeg",
         "milestones": [
             "Runs and jumps",
             "Uses 2-word phrases",
@@ -121,7 +121,7 @@ MILESTONES_DATA = {
     },
     "3-5_years": {
         "title": "3-5 Years",
-        "image": "https://images.unsplash.com/photo-1632053002928-1919605ee6f7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxwZWRpYXRyaWN8ZW58MHx8fHwxNzU2OTI0NTA0fDA&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.unsplash.com/photo-1659353887907-000c9a92377d",
         "milestones": [
             "Speaks in complete sentences",
             "Tells stories and asks lots of questions",
