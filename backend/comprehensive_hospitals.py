@@ -322,6 +322,262 @@ COMPREHENSIVE_HOSPITALS_DATABASE = {
             "phone": "+91 141 710 9999",
             "type": "Multi-specialty Hospital"
         }
+    ],
+    "kanpur": [
+        {
+            "name": "Regency Hospital",
+            "address": "Sarvodaya Nagar, Kanpur, Uttar Pradesh 208005",
+            "phone": "+91 512 255 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Prakash Hospital",
+            "address": "6/47, Vishnu Puri, Kanpur, Uttar Pradesh 208002",
+            "phone": "+91 512 254 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Rama Hospital",
+            "address": "LLR Hospital Building, GT Road, Kanpur, Uttar Pradesh 208001",
+            "phone": "+91 512 239 9999",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "GSM Hospital",
+            "address": "Mall Road, Kanpur, Uttar Pradesh 208001",
+            "phone": "+91 512 231 2345",
+            "type": "General Hospital"
+        },
+        {
+            "name": "Kiran Hospital",
+            "address": "Kiran Path, Mansarovar, Kanpur, Uttar Pradesh 208019",
+            "phone": "+91 512 268 5000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "nagpur": [
+        {
+            "name": "Kingsway Hospitals",
+            "address": "Beside Mental Hospital, Amravati Road, Nagpur, Maharashtra 440033",
+            "phone": "+91 712 224 1600",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Orange City Hospital",
+            "address": "34, Shankar Nagar Square, Nagpur, Maharashtra 440010",
+            "phone": "+91 712 244 0000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Wockhardt Hospital",
+            "address": "1643, North Ambazari Road, Nagpur, Maharashtra 440010",
+            "phone": "+91 712 244 2200",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Care Hospital",
+            "address": "3 Farmland, Ramdaspeth Panchsheel Square, Nagpur, Maharashtra 440010",
+            "phone": "+91 712 668 8888",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Alexis Hospital",
+            "address": "124, Central Avenue Road, Nagpur, Maharashtra 440008",
+            "phone": "+91 712 662 6666",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "visakhapatnam": [
+        {
+            "name": "Apollo Hospitals",
+            "address": "Arilova, Visakhapatnam, Andhra Pradesh 530040",
+            "phone": "+91 891 295 7777",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "KIMS ICON Hospital",
+            "address": "Care Hospital Road, Visakhapatnam, Andhra Pradesh 530002",
+            "phone": "+91 891 300 3000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Queen Mary Hospital",
+            "address": "Jagadamba Junction, Visakhapatnam, Andhra Pradesh 530020",
+            "phone": "+91 891 256 1234",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Medicover Hospitals",
+            "address": "MVP Colony, Sector 1, Visakhapatnam, Andhra Pradesh 530017",
+            "phone": "+91 891 304 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Seven Hills Hospital",
+            "address": "Rockdale Layout, Visakhapatnam, Andhra Pradesh 530002",
+            "phone": "+91 891 298 8888",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "indore": [
+        {
+            "name": "Choithram Hospital",
+            "address": "Manik Bagh Road, Indore, Madhya Pradesh 452014",
+            "phone": "+91 731 425 4800",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Bombay Hospital",
+            "address": "Scheme No 94, Ring Road, Indore, Madhya Pradesh 452010",
+            "phone": "+91 731 426 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Mohak Bariatrics & Robotics Hospital",
+            "address": "401, Tilak Nagar, New Palasia, Indore, Madhya Pradesh 452001",
+            "phone": "+91 731 430 0200",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Greater Kailash Hospital",
+            "address": "Plot No. 12, Scheme No. 54, Vijay Nagar, Indore, Madhya Pradesh 452010",
+            "phone": "+91 731 498 1234",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apollo Hospital",
+            "address": "Scheme No 74C, Sector D, Indore, Madhya Pradesh 452010",
+            "phone": "+91 731 498 0000",
+            "type": "Super Specialty Hospital"
+        }
+    ],
+    "thane": [
+        {
+            "name": "Jupiter Hospital",
+            "address": "Eastern Express Highway, Thane, Maharashtra 400601",
+            "phone": "+91 22 6189 8900",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Bethany Hospital",
+            "address": "616, Naupada, Thane West, Maharashtra 400602",
+            "phone": "+91 22 2534 2651",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Currae Speciality Hospital",
+            "address": "Thane - Belapur Road, Sector 6, Kharghar, Thane, Maharashtra 410210",
+            "phone": "+91 22 2771 2000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Kaushalya Medical Foundation Trust Hospital",
+            "address": "Hiranandani Estate, Thane West, Maharashtra 400607",
+            "phone": "+91 22 2580 7676",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Vedant Hospital",
+            "address": "Opposite Cadbury Company, Eastern Express Highway, Thane, Maharashtra 400604",
+            "phone": "+91 22 2580 2222",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "bhopal": [
+        {
+            "name": "Bansal Hospital",
+            "address": "B-253, Hill Road, Shahpura, Bhopal, Madhya Pradesh 462016",
+            "phone": "+91 755 267 6666",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "People's Hospital",
+            "address": "People's Campus, Bhanpur, Bhopal, Madhya Pradesh 462037",
+            "phone": "+91 755 277 3535",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Siddhanta Red Cross Super Speciality Hospital",
+            "address": "Tulsi Nagar, Bhopal, Madhya Pradesh 462003",
+            "phone": "+91 755 424 2222",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Charak Hospital",
+            "address": "Link Road No 1, Shivaji Nagar, Bhopal, Madhya Pradesh 462016",
+            "phone": "+91 755 255 2000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apex Hospital",
+            "address": "Malviya Nagar, Bhopal, Madhya Pradesh 462003",
+            "phone": "+91 755 404 4444",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "coimbatore": [
+        {
+            "name": "Kovai Medical Center and Hospital",
+            "address": "Avinashi Road, Coimbatore, Tamil Nadu 641014",
+            "phone": "+91 422 4324 000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Ganga Hospital",
+            "address": "313, Mettupalayam Road, Coimbatore, Tamil Nadu 641043",
+            "phone": "+91 422 245 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Royal Care Hospital",
+            "address": "Trichy Road, Coimbatore, Tamil Nadu 641018",
+            "phone": "+91 422 230 0300",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Sri Ramakrishna Hospital",
+            "address": "395, Sarojini Naidu Road, Coimbatore, Tamil Nadu 641018",
+            "phone": "+91 422 239 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "PSG Hospitals",
+            "address": "Peelamedu, Coimbatore, Tamil Nadu 641004",
+            "phone": "+91 422 434 3434",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "patna": [
+        {
+            "name": "Paras HMRI Hospital",
+            "address": "NH 30, Bailey Road, Patna, Bihar 800014",
+            "phone": "+91 612 398 4398",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Indira Gandhi Institute of Medical Sciences",
+            "address": "Sheikhpura, Patna, Bihar 800014",
+            "phone": "+91 612 229 7061",
+            "type": "Government Medical Institute"
+        },
+        {
+            "name": "Mahavir Cancer Sansthan",
+            "address": "Phulwari Sharif, Patna, Bihar 801505",
+            "phone": "+91 612 227 2473",
+            "type": "Specialty Hospital"
+        },
+        {
+            "name": "Ruban Memorial Hospital",
+            "address": "Patliputra Colony, Patna, Bihar 800013",
+            "phone": "+91 612 227 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Ford Hospital",
+            "address": "Saguna More, Danapur, Patna, Bihar 801503",
+            "phone": "+91 612 246 6666",
+            "type": "Multi-specialty Hospital"
+        }
     ]
 }
 
