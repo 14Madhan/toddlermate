@@ -378,6 +378,98 @@ HOSPITALS_DATABASE = {
             "type": "Super Specialty Hospital",
             "distance": "3.4 km"
         }
+    ],
+    "gujarat": [
+        {
+            "name": "Apollo Hospital",
+            "address": "Plot No 1A, Bhat GIDC Estate, Gandhinagar, Gujarat 382428",
+            "phone": "+91 79 2676 7676",
+            "type": "Super Specialty Hospital",
+            "distance": "2.1 km"
+        },
+        {
+            "name": "Sterling Hospital",
+            "address": "Near Gurukul, Memnagar, Ahmedabad, Gujarat 380052",
+            "phone": "+91 79 6677 0000",
+            "type": "Multi-specialty Hospital",
+            "distance": "1.6 km"
+        },
+        {
+            "name": "Surat Children's Hospital",
+            "address": "Ring Road, Surat, Gujarat 395002",
+            "phone": "+91 261 2470000",
+            "type": "Pediatric Hospital",
+            "distance": "2.8 km"
+        }
+    ],
+    "rajasthan": [
+        {
+            "name": "Fortis Escorts Hospital",
+            "address": "Jawahar Lal Nehru Marg, Malviya Nagar, Jaipur, Rajasthan 302017",
+            "phone": "+91 141 2547000",
+            "type": "Super Specialty Hospital",
+            "distance": "1.9 km"
+        },
+        {
+            "name": "SMS Hospital",
+            "address": "JLN Marg, Jaipur, Rajasthan 302004",
+            "phone": "+91 141 2518211",
+            "type": "Government Hospital",
+            "distance": "2.4 km"
+        },
+        {
+            "name": "Manipal Hospital",
+            "address": "Sector 5, Vidyadhar Nagar, Jaipur, Rajasthan 302039",
+            "phone": "+91 141 3999999",
+            "type": "Multi-specialty Hospital",
+            "distance": "3.2 km"
+        }
+    ],
+    "uttar_pradesh": [
+        {
+            "name": "KGMU Hospital",
+            "address": "Chowk, Lucknow, Uttar Pradesh 226003",
+            "phone": "+91 522 2257450",
+            "type": "Government Medical College",
+            "distance": "1.5 km"
+        },
+        {
+            "name": "Apollo Hospital",
+            "address": "Sector B, Bargawan, LDA Colony, Lucknow 226012",
+            "phone": "+91 522 4141414",
+            "type": "Super Specialty Hospital",
+            "distance": "2.7 km"
+        },
+        {
+            "name": "Sahara Hospital",
+            "address": "Viraj Khand, Gomti Nagar, Lucknow 226010",
+            "phone": "+91 522 4040404",
+            "type": "Multi-specialty Hospital",
+            "distance": "3.3 km"
+        }
+    ],
+    "kerala": [
+        {
+            "name": "Amrita Institute of Medical Sciences",
+            "address": "AIMS Ponekkara P O, Kochi, Kerala 682041",
+            "phone": "+91 484 2851234",
+            "type": "Super Specialty Hospital",
+            "distance": "1.8 km"
+        },
+        {
+            "name": "Lisie Hospital",
+            "address": "Kaloor, Kochi, Kerala 682017",
+            "phone": "+91 484 2403040",
+            "type": "Multi-specialty Hospital",
+            "distance": "2.5 km"
+        },
+        {
+            "name": "Baby Memorial Hospital",
+            "address": "Indira Gandhi Road, Kozhikode, Kerala 673004",
+            "phone": "+91 495 2356001",
+            "type": "Pediatric Hospital",
+            "distance": "1.2 km"
+        }
     ]
 }
 
