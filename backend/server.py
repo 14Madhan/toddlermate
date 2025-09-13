@@ -107,7 +107,7 @@ MILESTONES_DATA = {
     },
     "2-3_years": {
         "title": "2-3 Years",
-        "image": "https://images.unsplash.com/photo-1640378015733-317316521eb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxpbmRpYW4lMjB0b2RkbGVyfGVufDB8fHZ8MTc1Nzc1NTE1OXww&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.unsplash.com/photo-1497486751825-1233686d5d80?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBjaGlsZHJlbnxlbnwwfHx8fDE3NTc3NTYyMTN8MA&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Runs and jumps",
             "Uses 2-word phrases",
@@ -121,7 +121,7 @@ MILESTONES_DATA = {
     },
     "3-5_years": {
         "title": "3-5 Years",
-        "image": "https://images.unsplash.com/photo-1640378045318-a2f7af62d534?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjB0b2RkbGVyfGVufDB8fHZ8MTc1Nzc1NTE1OXww&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.unsplash.com/photo-1627475312657-3752fa068473?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBjaGlsZHJlbnxlbnwwfHx8fDE3NTc3NTYyMTN8MA&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Speaks in complete sentences",
             "Tells stories and asks lots of questions",
