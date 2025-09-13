@@ -23,6 +23,7 @@ function App() {
   const [sessionId, setSessionId] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [location, setLocation] = useState('');
+  const [selectedMilestone, setSelectedMilestone] = useState(null);
 
   useEffect(() => {
     fetchMilestones();
