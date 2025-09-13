@@ -578,6 +578,230 @@ COMPREHENSIVE_HOSPITALS_DATABASE = {
             "phone": "+91 612 246 6666",
             "type": "Multi-specialty Hospital"
         }
+    ],
+    "ghaziabad": [
+        {
+            "name": "Columbia Asia Hospital",
+            "address": "NH-24, Hapur Road, Near Landcraft Golf Club, Ghaziabad, Uttar Pradesh 201002",
+            "phone": "+91 120 497 7000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Yashoda Super Speciality Hospital",
+            "address": "Raj Nagar, Ghaziabad, Uttar Pradesh 201002",
+            "phone": "+91 120 403 4000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Shreya Hospital",
+            "address": "NH-24, Ghaziabad, Uttar Pradesh 201002",
+            "phone": "+91 120 276 2222",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Santom Hospital",
+            "address": "Govindpuram, Ghaziabad, Uttar Pradesh 201013",
+            "phone": "+91 120 432 3232",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Metro Hospital",
+            "address": "L-94, Sector 11, Pratap Vihar, Ghaziabad, Uttar Pradesh 201009",
+            "phone": "+91 120 275 5555",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "ludhiana": [
+        {
+            "name": "Fortis Hospital",
+            "address": "6 Kms Chandigarh Road, Ludhiana, Punjab 141012",
+            "phone": "+91 161 502 7777", 
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Dayanand Medical College & Hospital",
+            "address": "Tagore Nagar, Civil Lines, Ludhiana, Punjab 141001",
+            "phone": "+91 161 230 9300",
+            "type": "Medical College Hospital"
+        },
+        {
+            "name": "SPS Hospitals",
+            "address": "Sherpur Chowk, GT Road, Ludhiana, Punjab 141003",
+            "phone": "+91 161 253 5353",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apollo Spectra Hospitals",
+            "address": "Near Verka Milk Plant, GT Road, Ludhiana, Punjab 141003",
+            "phone": "+91 161 299 4999",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Deepak Hospital",
+            "address": "Pakhowal Road, Ludhiana, Punjab 141002",
+            "phone": "+91 161 246 1111",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "agra": [
+        {
+            "name": "Pushpanjali Hospital",
+            "address": "A-1, Pushpanjali Cross Road 1, Agra, Uttar Pradesh 282001",
+            "phone": "+91 562 403 0808",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Jeevan Anmol Hospital",
+            "address": "Shahganj, Agra, Uttar Pradesh 282010",
+            "phone": "+91 562 246 1234",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Amit Hospital",
+            "address": "Belanganj, Agra, Uttar Pradesh 282004",
+            "phone": "+91 562 246 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "District Combined Hospital",
+            "address": "MG Road, Agra, Uttar Pradesh 282010",
+            "phone": "+91 562 246 3333",
+            "type": "Government Hospital"
+        },
+        {
+            "name": "Paras Hospital",
+            "address": "NH-2, Sikandra, Agra, Uttar Pradesh 282007",
+            "phone": "+91 562 398 5000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "nashik": [
+        {
+            "name": "Wockhardt Hospital",
+            "address": "1877, Davangere Complex, Near Panchavati, Nashik, Maharashtra 422003",
+            "phone": "+91 253 669 5000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Jupiter Hospital",
+            "address": "Near Bharatratna Dr. A.P.J. Abdul Kalam Chowk, Nashik, Maharashtra 422002",
+            "phone": "+91 253 381 1111",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Alexis Multispeciality Hospital",
+            "address": "Plot No 46, Sector 1, Opposite Police Station, Nashik, Maharashtra 422009",
+            "phone": "+91 253 610 2610",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "HCG Manavata Cancer Centre",
+            "address": "Opposite Golf Club, Nashik, Maharashtra 422005",
+            "phone": "+91 253 666 1000",
+            "type": "Specialty Hospital"
+        },
+        {
+            "name": "Ashoka Medicover Hospital",
+            "address": "Plot No 13A, Sector 1, Near Pathardi Phata, Nashik, Maharashtra 422010",
+            "phone": "+91 253 612 2222",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "faridabad": [
+        {
+            "name": "Fortis Escorts Hospital",
+            "address": "Neelam Chowk, Near Escorts Mujesar Metro Station, Faridabad, Haryana 121001",
+            "phone": "+91 129 422 7000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Metro Hospital & Heart Institute",
+            "address": "X-1, Sector 12, Faridabad, Haryana 121007",
+            "phone": "+91 129 417 4000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Sarvodaya Hospital",
+            "address": "Plot No-8, Sector 8, Faridabad, Haryana 121006",
+            "phone": "+91 129 415 1515",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Accord Super Speciality Hospital",
+            "address": "Sector 9, Greater Faridabad, Haryana 121004",
+            "phone": "+91 129 404 4444",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Asian Hospital",
+            "address": "Sector 21-A, Faridabad, Haryana 121001",
+            "phone": "+91 129 418 4000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "meerut": [
+        {
+            "name": "Anand Hospital",
+            "address": "20, Begum Bridge Road, Meerut, Uttar Pradesh 250001",
+            "phone": "+91 121 401 3900",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Subharti Hospital",
+            "address": "NH-58, Delhi Haridwar Bypass Road, Meerut, Uttar Pradesh 250005",
+            "phone": "+91 121 271 5555",
+            "type": "Medical College Hospital"
+        },
+        {
+            "name": "KMC Hospital",
+            "address": "1, Hapur Road, Kotwali, Meerut, Uttar Pradesh 250002",
+            "phone": "+91 121 246 2222",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Charak Hospital",
+            "address": "1-B, Medical Road, Meerut, Uttar Pradesh 250004",
+            "phone": "+91 121 265 5000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Shanti Hospital",
+            "address": "Garh Road, Meerut, Uttar Pradesh 250002",
+            "phone": "+91 121 242 4242",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "rajkot": [
+        {
+            "name": "Sterling Hospital",
+            "address": "Behind Gorgeous Complex, Off CG Road, Rajkot, Gujarat 360001",
+            "phone": "+91 281 245 1111",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apollo Hospitals",
+            "address": "Plot No 1A, GIDC Estate, Rajkot, Gujarat 360003",
+            "phone": "+91 281 242 2222",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Shalby Hospital",
+            "address": "319, Green City, Ghuma Bopal Road, Rajkot, Gujarat 360005",
+            "phone": "+91 281 661 1111",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Rajkot Hospital",
+            "address": "150 Feet Ring Road, Rajkot, Gujarat 360007",
+            "phone": "+91 281 247 7000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Life Care Hospital",
+            "address": "University Road, Rajkot, Gujarat 360005",
+            "phone": "+91 281 235 5555",
+            "type": "Multi-specialty Hospital"
+        }
     ]
 }
 
