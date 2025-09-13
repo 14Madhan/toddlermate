@@ -65,46 +65,74 @@ class StatusCheckCreate(BaseModel):
 MILESTONES_DATA = {
     "0-6_months": {
         "title": "0-6 Months",
+        "image": "https://images.unsplash.com/photo-1685358279653-868c0b99fe6c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1NjkyNDUxNnww&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Follows objects with eyes",
             "Responds to loud sounds",
             "Smiles at people",
             "Holds head steady when upright",
             "Brings hands to mouth",
-            "Pushes up when lying on tummy"
+            "Pushes up when lying on tummy",
+            "Makes cooing sounds",
+            "Recognizes familiar faces"
         ]
     },
     "6-12_months": {
-        "title": "6-12 Months", 
+        "title": "6-12 Months",
+        "image": "https://images.unsplash.com/photo-1600880291319-1a7499c191e8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwyfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1NjkyNDUxNnww&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Sits without support",
             "Crawls or scoots",
             "Pulls to stand",
             "Says 'mama' and 'dada'",
             "Plays peek-a-boo",
-            "Uses pincer grasp"
+            "Uses pincer grasp",
+            "Responds to own name",
+            "Shows stranger anxiety"
         ]
     },
     "1-2_years": {
         "title": "1-2 Years",
+        "image": "https://images.unsplash.com/photo-1582568469591-329655b4c24c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHw0fHx0b2RkbGVyJTIwaGVhbHRofGVufDB8fHx8MTc1NjkyNDQ5OHww&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Walks independently",
             "Says 2-3 words clearly",
             "Points to things when named",
             "Follows simple instructions",
             "Drinks from a cup",
-            "Shows affection to familiar people"
+            "Shows affection to familiar people",
+            "Builds tower of 2-3 blocks",
+            "Imitates actions and words"
         ]
     },
     "2-3_years": {
         "title": "2-3 Years",
+        "image": "https://images.unsplash.com/photo-1751158112093-b736fe920027?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHx0b2RkbGVyJTIwaGVhbHRofGVufDB8fHx8MTc1NjkyNDQ5OHww&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Runs and jumps",
             "Uses 2-word phrases",
             "Sorts objects by shape and color",
             "Shows independence",
             "Plays alongside other children",
-            "Uses toilet with help"
+            "Uses toilet with help",
+            "Climbs stairs alternating feet",
+            "Shows defiant behavior (normal)"
+        ]
+    },
+    "3-5_years": {
+        "title": "3-5 Years",
+        "image": "https://images.unsplash.com/photo-1632053002928-1919605ee6f7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwzfHxwZWRpYXRyaWN8ZW58MHx8fHwxNzU2OTI0NTA0fDA&ixlib=rb-4.1.0&q=85",
+        "milestones": [
+            "Speaks in complete sentences",
+            "Tells stories and asks lots of questions",
+            "Counts to 10 or higher",
+            "Draws recognizable pictures",
+            "Uses scissors and colors within lines",
+            "Plays cooperatively with other children",
+            "Shows empathy and understands feelings",
+            "Follows multi-step instructions",
+            "Rides a tricycle or bicycle with training wheels",
+            "Shows interest in letters and reading"
         ]
     }
 }
