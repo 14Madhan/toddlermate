@@ -1026,6 +1026,198 @@ COMPREHENSIVE_HOSPITALS_DATABASE = {
             "phone": "+91 172 521 1000",
             "type": "Super Specialty Hospital"
         }
+    ],
+    "navi_mumbai": [
+        {
+            "name": "Apollo Hospital",
+            "address": "Plot # 13, Parsik Hill Road, Sector 23, CBD Belapur, Navi Mumbai, Maharashtra 400614",
+            "phone": "+91 22 3926 7000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "D Y Patil Hospital",
+            "address": "Sector 5, Nerul, Navi Mumbai, Maharashtra 400706",
+            "phone": "+91 22 3989 1000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "MGM Hospital",
+            "address": "Sector 1, Kamothe, Navi Mumbai, Maharashtra 410209",
+            "phone": "+91 22 2743 4343",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Fortis Hiranandani Hospital",
+            "address": "Sector 10A, Vashi, Navi Mumbai, Maharashtra 400703",
+            "phone": "+91 22 7125 8800",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Terna Speciality Hospital",
+            "address": "Plot No. 12, Sector 22, Nerul, Navi Mumbai, Maharashtra 400706",
+            "phone": "+91 22 4077 2000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "allahabad": [
+        {
+            "name": "United Medicity",
+            "address": "12-A, Chandra Shekhar Azad Nagar, Allahabad, Uttar Pradesh 211002",
+            "phone": "+91 532 254 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Kamla Nehru Memorial Hospital",
+            "address": "MLN Medical College, Allahabad, Uttar Pradesh 211001",
+            "phone": "+91 532 257 5401",
+            "type": "Medical College Hospital"
+        },
+        {
+            "name": "Colvin Hospital",
+            "address": "Lowther Road, Allahabad, Uttar Pradesh 211003",
+            "phone": "+91 532 246 2222",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "SRN Hospital",
+            "address": "MLN Medical College, Allahabad, Uttar Pradesh 211001",
+            "phone": "+91 532 257 0000",
+            "type": "Government Hospital"
+        },
+        {
+            "name": "Tej Hospital",
+            "address": "Civil Lines, Allahabad, Uttar Pradesh 211001",
+            "phone": "+91 532 242 5555",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "ranchi": [
+        {
+            "name": "Rajendra Institute of Medical Sciences",
+            "address": "Bariatu, Ranchi, Jharkhand 834009",
+            "phone": "+91 651 220 1066",
+            "type": "Government Medical Institute"
+        },
+        {
+            "name": "Orchid Medical Centre",
+            "address": "Bariatu Road, Ranchi, Jharkhand 834009",
+            "phone": "+91 651 221 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Medanta Hospital",
+            "address": "Irba, Ranchi, Jharkhand 835103",
+            "phone": "+91 651 717 1000",
+            "type": "Super Specialty Hospital"
+        },
+        {
+            "name": "Raj Hospital",
+            "address": "Doranda, Ranchi, Jharkhand 834002",
+            "phone": "+91 651 224 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Central Hospital",
+            "address": "HEC Township, Ranchi, Jharkhand 834004",
+            "phone": "+91 651 246 0000",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "howrah": [
+        {
+            "name": "Belle Vue Clinic",
+            "address": "9, Dr. U. N. Brahmachari Street, Kolkata, West Bengal 700017",
+            "phone": "+91 33 2287 2321",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Howrah Orthopedic Hospital",
+            "address": "Foreshore Road, Howrah, West Bengal 711101",
+            "phone": "+91 33 2638 5555",
+            "type": "Specialty Hospital"
+        },
+        {
+            "name": "Mission Hospital",
+            "address": "Imambara Street, Howrah, West Bengal 711101",
+            "phone": "+91 33 2636 7777",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Calcutta Medical Research Institute",
+            "address": "7/2, Diamond Harbour Road, Alipore, Kolkata, West Bengal 700027",
+            "phone": "+91 33 2456 7890",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Shalimar Hospital",
+            "address": "Shalimar, Howrah, West Bengal 711109",
+            "phone": "+91 33 2669 2222",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "jodhpur": [
+        {
+            "name": "Mathura Das Mathur Hospital",
+            "address": "Dr. S.N. Medical College, Jodhpur, Rajasthan 342003",
+            "phone": "+91 291 251 8181",
+            "type": "Government Medical College"
+        },
+        {
+            "name": "Goyal Hospital",
+            "address": "Mahatma Gandhi Hospital Road, Jodhpur, Rajasthan 342006",
+            "phone": "+91 291 274 4444",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apex Hospital",
+            "address": "Malviya Nagar, Jodhpur, Rajasthan 342011",
+            "phone": "+91 291 274 0000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Kamla Palace Hospital",
+            "address": "Near Kamla Palace, Jodhpur, Rajasthan 342001",
+            "phone": "+91 291 261 5555",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Joshi Hospital",
+            "address": "Chopasni Road, Jodhpur, Rajasthan 342008",
+            "phone": "+91 291 272 3333",
+            "type": "Multi-specialty Hospital"
+        }
+    ],
+    "madurai": [
+        {
+            "name": "Meenakshi Mission Hospital",
+            "address": "Lake Area, Melur Road, Madurai, Tamil Nadu 625107",
+            "phone": "+91 452 258 5858",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Apollo Speciality Hospital",
+            "address": "80 Feet Road, KK Nagar, Madurai, Tamil Nadu 625020",
+            "phone": "+91 452 435 2255",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Devadoss Multi Speciality Hospital",
+            "address": "118, Bypass Road, Madurai, Tamil Nadu 625016",
+            "phone": "+91 452 250 0500",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Pandian Hospital",
+            "address": "Bypass Road, Madurai, Tamil Nadu 625016",
+            "phone": "+91 452 437 9000",
+            "type": "Multi-specialty Hospital"
+        },
+        {
+            "name": "Government Rajaji Hospital",
+            "address": "Madurai Medical College, Madurai, Tamil Nadu 625020",
+            "phone": "+91 452 253 0451",
+            "type": "Government Hospital"
+        }
     ]
 }
 
