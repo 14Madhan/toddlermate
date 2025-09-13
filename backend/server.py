@@ -65,7 +65,7 @@ class StatusCheckCreate(BaseModel):
 MILESTONES_DATA = {
     "0-6_months": {
         "title": "0-6 Months",
-        "image": "https://images.unsplash.com/photo-1685358279653-868c0b99fe6c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1NjkyNDUxNnww&ixlib=rb-4.1.0&q=85",
+        "image": "https://images.unsplash.com/photo-1631201036602-c557ad26828e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxjaGlsZCUyMGRldmVsb3BtZW50fGVufDB8fHx8MTc1NjkyNDUxNnww&ixlib=rb-4.1.0&q=85",
         "milestones": [
             "Follows objects with eyes",
             "Responds to loud sounds",
